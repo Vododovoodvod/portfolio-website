@@ -1,0 +1,35 @@
+html{
+    font-size: 16px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+body{
+    font-size: 1rem;
+}
+.p {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.h6{
+    font-size: 1.33rem;
+    font-weight: bold;
+}
+.h5{
+    font-size: 1.66rem;
+    font-weight: bold;
+}
+.h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.h3{
+    font-size: 2.33rem;
+    font-weight: bold;
+}
+.h2{
+    font-size: 2.66rem;
+    font-weight: bold;
+}
+.h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
