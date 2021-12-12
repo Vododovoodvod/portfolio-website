@@ -1,41 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+
 html{
     font-size: 16px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 body{
     font-size: 1rem;
-    color:#2D2A32;
+    color:black;
+    background-color:#7a8b9f;
+    background-image: url("./img/city-bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    /*
+    background-repeat: repeat-y; */
 }
 .p {
     font-size: 1rem;
     font-weight: normal;
-    line-height: 1.1;
+    line-height: 1.4;
     line-height: 1;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 4px rgb(48, 48, 48);
 }
 h6, .h6{
     font-size: 1.33rem;
-    font-weight: bold;
+    font-weight: normal;
+    color:#011627;
+    text-shadow: 2px 2px 2px gray;
 }
 h5, .h5{
     font-size: 1.66rem;
     font-weight: bold;
+    color:#011627;
+    text-shadow: 2px 2px 2px gray;
 }
 h4, .h4{
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: normal;
+    color:#011627;
+    text-shadow: 2px 2px 2px gray;
 }
 h3, .h3{
     font-size: 2.33rem;
     font-weight: bold;
+    font-variant:small-caps;
+    color:#011627;
+    text-shadow: 2px 2px 2px gray;
 }
 h2, .h2{
     font-size: 2.66rem;
-    font-weight: bold;
+    font-weight: normal;
+    font-variant:small-caps;
+    color:#011627;
+    text-shadow: 2px 2px 2px gray;
+    text-decoration: underline;
 }
 h1, .h1{
     font-size: 3rem;
     font-weight: bold;
     font-variant:small-caps;
+    color:#011627;
+    text-shadow: 2px 2px 2px gray;
+    text-decoration: underline;
+}
+.title-color{
+    color: #8d2b14;
 }
 .text-align-left{text-align: left;}
 .text-align-right{text-align: right;}
@@ -52,4 +82,18 @@ h1, .h1{
     -1px -1px 1px rgba(255, 255, 0, 1),
     1px -1px 1px rgba(0, 0, 255, 1),
     -1px 1px 1px rgba(0, 255, 0, 1);
+}
+.highligter{
+    background-color:#DB5A42;
+    box-shadow: 0px 2px 0px black;
+}
+a:link{
+    color: #011627;
+    ;
+}
+a:visited{
+    color: #011627;
+}
+a:hover{
+    color: #DB5A42;
 }
