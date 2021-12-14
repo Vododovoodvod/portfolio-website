@@ -12,7 +12,10 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
-    /*
+    background: 
+    url("./img/city-bcg.jpg") top center /100% no-repeat, 
+    /*url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAL0lEQVQYlWNgQAX/GYgA2BRhiP3HIohVEbJioqzHZvp/dEl0hSSZTJSVJJlOukIAlCAc5NAUfWcAAAAASUVORK5CYII=) top left repeat,
+    linear-gradient(180deg, rgba(122,139,159,1) 35%, rgba(255,255,255,1) 100%);*
     background-repeat: repeat-y; */
 }
 .p {
@@ -96,4 +99,30 @@ a:visited{
 }
 a:hover{
     color: #DB5A42;
+}
+.wrapper{
+    max-width: 1024px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto; /*alternativni način da se zapiše, gornja i donja 0, lijeva i desna auto*/
+    padding-left: 16px;
+    padding-right: 16px;
+    padding: 0 16px; /*alternativni način da se zapiše, gornja i donja 0, lijeva i desna 16px*/
+    box-sizing: border-box;
+}
+.cookies{
+    max-width: 350px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: 
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAFUlEQVQImWNgYGAwZkAF6HxyAIaZACkNAM3VDeB7AAAAAElFTkSuQmCC) top left repeat;
+    background-color:#DB5A42;
+}
+
+.cbutton{
+    border: 0;
+    background-color: #DB5A42;
+    font-size: 1rem;
 }
