@@ -165,6 +165,8 @@ a:hover{
     margin: 8px 0px;
 }
 .project_link{
+    position: relative;
+    top: 0px;
     display: inline-block;
     background-color: #7a8b9f;
     color: white;
@@ -176,6 +178,8 @@ a:hover{
 }
 .project_link:hover{
     color: #DB5A42;
+    top: 2px;
+
 }
 .project_technology_list{
     margin: 0px 0;
@@ -196,4 +200,22 @@ a:hover{
 }
 .project_footer{
     margin-bottom: 8px;
+}
+.tooltip{
+    position: relative;
+}
+.tooltip_message{
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 4px 4px;
+    font-size: 0.8rem;
+    width: 150%;
+    max-width: 250px;
+}
+.tooltip:hover .tooltip_message{
+    display: inline-block;
 }
