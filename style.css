@@ -88,8 +88,6 @@ h1, .h1{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
     padding: 0 16px; /*alternativni način da se zapiše, gornja i donja 0, lijeva i desna 16px*/
     box-sizing: border-box;
 }
@@ -142,7 +140,7 @@ h1, .h1{
     box-shadow: 
         8px 8px 8px rgba(0,0,0,0.4);
     width: calc(100% - 256px);
-    font-size: 32px;
+    font-size: 2rem;
     color: white;
     text-align: center;
     margin-left: auto;
@@ -332,9 +330,10 @@ h1, .h1{
     transition: transform 0.2s ease;
     font-weight: bold;
 }
+
 .header {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row;
     background-color: #ffffff;
     border-radius: 50px;
     border: 7px solid rgba(0,0,0,0.3);
@@ -345,7 +344,7 @@ h1, .h1{
         -6px 0px 10px rgb(4, 180, 72);
     width: 100%;
     margin-bottom: 40px;
-    min-width: 1024px;
+    min-width: 300px;
 }
 .header_row{
     display: flex;
@@ -358,9 +357,7 @@ h1, .h1{
 .header_info{
     display: block;
     padding-left: 40px;
-    border-left-style: solid;
-    border-left-width: thin;
-    height: 370px;
+    height: 100%;
     list-style: none;
 }
 .list_links{
@@ -421,4 +418,40 @@ h1, .h1{
 
 .jump{
     animation: a_jump 0.3s ease-in-out 0s infinite alternate forwards;
+}
+
+.robot{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        padding: 0px 0px;
+        width: 100%;
+    }
+    .header{
+        flex-direction: column;
+        border-radius: 0px;
+        width: 100%;
+        margin-bottom: 40px;
+        min-width: 300px;
+        border: 0px solid rgba(0,0,0,0.3);
+        box-shadow: 
+            0px 0px 0px #4F6367,
+            0px 0px 0px #4F6367,
+            0px 0px 0px rgb(4, 180, 72),
+            0px 0px 0px rgb(4, 180, 72);
+        width: 100%;
+    }
+    .project_title{
+        width: calc(100% - 16px);
+        font-size: 1.3rem;
+    }
+    .header_row{
+        flex-flow: column;
+    }
+    .h1{
+        font-size: 2rem;
+    }
 }

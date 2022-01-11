@@ -10,7 +10,9 @@ const camera = new THREE.PerspectiveCamera(50
 const renderer = new THREE.WebGLRenderer();
 renderer.setClearColor( 0xFFFFFF, 1 );
 
-renderer.setSize(537, 432);
+renderer.setSize(320, 240);
+
+
 document.getElementById("3d_robot").appendChild(renderer.domElement);
 
 const gltfLoader = new GLTFLoader();
