@@ -420,11 +420,6 @@ h1, .h1{
     animation: a_jump 0.3s ease-in-out 0s infinite alternate forwards;
 }
 
-.robot{
-    width: 100%;
-    height: 100%;
-}
-
 @media screen and (max-width: 768px){
     .wrapper{
         padding: 0px 0px;
