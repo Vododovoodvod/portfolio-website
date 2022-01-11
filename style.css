@@ -366,3 +366,59 @@ h1, .h1{
 .list_links{
     list-style: none;  
 }
+
+@keyframes blink {
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+.blinking{
+    animation: blink 0.5s ease-in-out 0s infinite alternate forwards;
+}
+
+@keyframes in_ver {
+    0%{
+        transform: translate(0px, -100px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(0px, 0px);
+        opacity: 100%;
+    }
+}
+
+.in_vertical{
+    animation: in_ver 5s ease-in-out 0s 1 forwards;
+}
+
+@keyframes in_hor {
+    0%{
+        transform: translate(-100px, 0px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translate(0px, 0px);
+        opacity: 100%;
+    }
+}
+
+.in_horizontal{
+    animation: in_hor 5s ease-in-out 0s 1 forwards;
+}
+
+@keyframes a_jump {
+    0%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(0px, -20px);
+    }
+}
+
+.jump{
+    animation: a_jump 0.3s ease-in-out 0s infinite alternate forwards;
+}
