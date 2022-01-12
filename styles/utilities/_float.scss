@@ -1,0 +1,13 @@
+.float_collumn{
+    float: left;
+    width: calc(50% - 32px);
+    margin: 0 16px;
+}
+.float_row{
+    margin: 0 -16px;
+}
+.float_row:after{
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,29 @@
+.color_palette{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.palette_item{
+    display: block;
+    width: calc(1 / 6 * 100%);
+    height: auto;
+    background: red;
+    margin: 4px;
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+.palette_item::before{
+    content:"";
+    display: block;
+    padding-top: 100%;
+}
+.palette_item_content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+.navigation{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    /*alternativa*/
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /*glavna os*/
+    align-items: center; /*sporedna os*/
+    height: 50px;
+    background: gray;
+}
+.navigation_item{
+    list-style: none;
+    display: block;
+}
+.navigation_item a{
+    color: white;
+    background: black;
+    padding: 6px 8px;
+}

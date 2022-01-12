@@ -1,0 +1,17 @@
+.profile_image{
+    display: block;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin: 30px 30px;
+    object-position: center -20px;
+    border-radius: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:navy;
+    border: 5px solid navy;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid black;
+    box-shadow: 10px 10px 15px -3px rgba(0,0,0,1);
+    transition: transform 0.5s ease;
+}

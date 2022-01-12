@@ -1,0 +1,17 @@
+.project_technology_list{
+    margin: 0px 0;
+    padding: 0;
+}
+.project_technology_list li{
+    display: inline-block;
+    background-color: #c6cad3;
+    padding: 2px 4px;
+    color: #23282d;
+    border-radius: 5px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.project_technology_list li:last-child {
+    margin-right: 0px;
+}
