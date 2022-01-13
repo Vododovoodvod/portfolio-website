@@ -12,7 +12,7 @@
     width: 100%;
     margin-bottom: 40px;
     min-width: 300px;
-    @media screen and (max-width: 768px){
+    @include mq($breakpoint-tablet) {
         flex-direction: column;
         border-radius: 0px;
         width: 100%;
